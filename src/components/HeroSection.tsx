@@ -49,7 +49,6 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            {siteConfig.description}
           </motion.p>
 
           {/* CTA Buttons */}

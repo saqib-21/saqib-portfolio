@@ -3,7 +3,9 @@ import { useRef } from "react";
 import { ExternalLink, Folder } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
-const ProjectCard = ({ project, index }: { project: typeof siteConfig.projects[0]; index: number }) => {
+type ProjectType = (typeof siteConfig.projects)[number] & { period?: string };
+
+const ProjectCard = ({ project, index }: { project: ProjectType; index: number }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
@@ -29,8 +31,8 @@ const ProjectCard = ({ project, index }: { project: typeof siteConfig.projects[0
             <h3 className="text-xl font-semibold group-hover:text-emerald-400 transition-colors duration-200">
               {project.title}
             </h3>
-            {(project as any).period && (
-              <p className="text-xs text-muted-foreground/70 mt-1">{(project as any).period}</p>
+            {project.period && (
+              <p className="text-xs text-muted-foreground/70 mt-1">{project.period}</p>
             )}
           </div>
           <a

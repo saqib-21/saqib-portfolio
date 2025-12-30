@@ -130,7 +130,7 @@ This project is open source and available under the MIT License.
 - Email: khans416@mcmaster.ca
 - Phone: (+1)289-783-1055
 - GitHub: [@saqib-21](https://github.com/saqib-21)
-- LinkedIn: [saqib-khan](https://linkedin.com/in/saqib-khan)
+- LinkedIn: [saqib-khan](https://www.linkedin.com/in/saqib-khan-aa127b275/)
 
 ---
 
