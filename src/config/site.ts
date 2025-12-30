@@ -70,7 +70,7 @@ export const siteConfig = {
       period: "December 2025",
     },
     {
-      title: "Live Bridge Status Visualizer",
+      title: "BridgeStatus.ca - Live Bridge Status Visualizer",
       description: "Full-stack web app with Node.js/Express backend that scrapes official bridge data and exposes it via REST API. Designed responsive Google Maps frontend with real-time geolocation and color-coded bridge markers. Used by 1000+ local residents to avoid delays from raised bridges.",
       image: "/projects/bridge-status.png",
       tech: ["React", "Node.js", "Express", "Cheerio", "Google Maps API", "Tailwind CSS"],
